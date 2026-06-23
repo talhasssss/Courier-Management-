@@ -1,0 +1,17 @@
+{
+  "ConnectionStrings": {
+    "CtmsConnection": "Server=YOUR_SERVER;Database=YOUR_DATABASE;User Id=YOUR_USER;Password=YOUR_PASSWORD;"
+  },
+  "JwtSettings": {
+    "SecretKey": "REPLACE_WITH_SECURE_RANDOM_KEY",
+    "Issuer": "CtmsApi",
+    "Audience": "CtmsClients"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
